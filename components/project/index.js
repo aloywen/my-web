@@ -23,16 +23,16 @@ export default function Index() {
             desc: 'Booking online system, built with React and TailwindCSS',
             link: 'https://safen.netlify.app/'
         },
-        {
-            title: 'Car Rental Site',
-            desc: 'Landing page rental car, built with Html and TailwindCSS',
-            link: 'https://coba-rental.netlify.app/'
-        },
-        {
-            title: 'Mosque Website',
-            desc: 'A static website build with HTML, Bootstrap and Javascript',
-            link: 'https://simasjid.netlify.app/'
-        }
+        // {
+        //     title: 'Car Rental Site',
+        //     desc: 'Landing page rental car, built with Html and TailwindCSS',
+        //     link: 'https://coba-rental.netlify.app/'
+        // },
+        // {
+        //     title: 'Mosque Website',
+        //     desc: 'A static website build with HTML, Bootstrap and Javascript',
+        //     link: 'https://simasjid.netlify.app/'
+        // }
     ]
     return (
         <div>
