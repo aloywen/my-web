@@ -3,10 +3,9 @@ export default function Document() {
     return (
         <Html>
             <Head>
-
-                <meta name="Ali Anwar Frontend" content="Ali Anwar Frontend" />
-                <meta name="description" content="Artificial Intellegent" />
-                <meta name="keywords" content="Artificial Intellegent" />
+                <meta name="Ali Anwar" content="Frontend Developer" />
+                <meta name="description" content="Frontend Developer" />
+                <meta name="keywords" content="Frontend Developer" />
                 <meta name="author" content="Ali Anwar" />
             </Head>
             <body>

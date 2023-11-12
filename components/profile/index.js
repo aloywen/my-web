@@ -8,7 +8,7 @@ export default function Index() {
                 animate={{ x: 0 }}
                 transition={{ delay: 0.5, type: 'spring', stiffness: 120 }}
             />
-            <motion.div class="w-full lg:w-3/5"
+            <motion.div className="w-full lg:w-3/5"
                 initial={{ x: '100vw' }}
                 animate={{ x: 0 }}
                 transition={{ delay: 0.5, type: 'spring', stiffness: 120 }}

@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
-        <link rel="shortcut icon" href={favicon} />
+        <link rel="shortcut icon" href="../public/favicon.ico" />
         <title>Ali Anwar</title>
       </Head>
       <Component {...pageProps} />
