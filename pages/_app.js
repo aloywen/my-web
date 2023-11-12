@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import Head from 'next/head'
 import favicon from '../public/favicon.ico'
+import foto from '../public/profile.png'
 
 
 function MyApp({ Component, pageProps }) {
@@ -18,15 +19,15 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:url" content="https://alianw.netlify.app/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Ali Anwar" />
-        <meta property="og:description" content="Hello i'm Frontend Developer" />
-        <meta property="og:image" content="../public/profile.png" />
+        <meta property="og:description" content="Hello i am Frontend Developer" />
+        <meta property="og:image" content={foto} />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="alianw.netlify.app" />
         <meta property="twitter:url" content="https://alianw.netlify.app/" />
         <meta name="twitter:title" content="Ali Anwar" />
-        <meta name="twitter:description" content="Hello i'm Frontend Developer" />
-        <meta name="twitter:image" content="../public/profile.png" />
+        <meta name="twitter:description" content="Hello i am Frontend Developer" />
+        <meta name="twitter:image" content={foto} />
 
 
       </Head>
