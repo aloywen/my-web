@@ -13,6 +13,22 @@ function MyApp({ Component, pageProps }) {
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
         <link rel="shortcut icon" href="../public/favicon.ico" />
         <title>Ali Anwar</title>
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta property="og:url" content="https://alianw.netlify.app/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Ali Anwar" />
+        <meta property="og:description" content="Hello i'm Frontend Developer" />
+        <meta property="og:image" content="../public/profile.png" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="alianw.netlify.app" />
+        <meta property="twitter:url" content="https://alianw.netlify.app/" />
+        <meta name="twitter:title" content="Ali Anwar" />
+        <meta name="twitter:description" content="Hello i'm Frontend Developer" />
+        <meta name="twitter:image" content="../public/profile.png" />
+
+
       </Head>
       <Component {...pageProps} />
     </>
